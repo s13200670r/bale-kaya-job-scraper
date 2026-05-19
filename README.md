@@ -14,6 +14,7 @@ An automated Python tool to monitor **Kaya** projects and receive instant notifi
 BALE KAYA BOT/
 ├── data/
 │   └── sent_projects.json    # Database of already notified projects
+|   └── kaya.json             # Kaya skill ids list
 ├── src/
 │   ├── app.py                # Main entry point (the loop)
 │   ├── bale_bot.py           # Logic for sending messages to Bale
@@ -23,7 +24,6 @@ BALE KAYA BOT/
 ├── .gitignore                # Files to be excluded from Git
 ├── README.md                 # Project documentation
 ├── requirements.txt          # Python dependencies
-└── kaya.json                 # Kaya skill ids list
 ```
 
 # 🚀 Getting Started
