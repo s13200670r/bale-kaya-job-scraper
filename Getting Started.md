@@ -8,7 +8,8 @@ Make sure you have Python 3.x installed. You also need to create a bot on Bale v
 
 Clone the repository and install the dependencies:
 
-‍‍```bash
+```
+bash
 pip install -r requirements.txt
 ```
 
@@ -16,13 +17,15 @@ pip install -r requirements.txt
 
 Copy the example environment file and fill in your details:
 
-```bash
+```
+bash
 cp .env.example .env
 ```
 
 Edit `.env` and add your credentials:
 
-```env
+```
+env
 BALE_TOKEN=your_bot_token_here
 CHAT_ID=your_personal_chat_id
 SKILL_IDS=95,1075,3113,2918
@@ -32,7 +35,8 @@ SKILL_IDS=95,1075,3113,2918
 
 To start the monitoring process, run:
 
-```bash
+```
+bash
 python src/app.py
 ```
 
