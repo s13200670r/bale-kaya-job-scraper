@@ -23,7 +23,7 @@ BALE KAYA BOT/
 ├── .env.example              # Template for environment variables
 ├── .gitignore                # Files to be excluded from Git
 ├── README.md                 # Project documentation
-├── requirements.txt          # Python dependencies
+└── requirements.txt          # Python dependencies
 ```
 
 # 🚀 Getting Started
