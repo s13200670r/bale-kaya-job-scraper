@@ -25,5 +25,5 @@ while True:
         os.system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga")
         os.system('notify-send "New Project" "A new project found! Horaaaaaaaaaaaaaaaaaaa!"')
 
-    time.sleep(180)
+    time.sleep(60)
 
